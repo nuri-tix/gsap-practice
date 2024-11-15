@@ -90,6 +90,24 @@ body {
 	line-height: 1.75;
 }
 
+.text-block__btn {
+	padding: 9.25px 40px;
+	font-size: 15.25px;
+	border-radius: 10em;
+	background: transparent;
+	border: 2px solid var(--color-text);
+	color: var(--color-text);
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	text-decoration: none;
+	margin-top: 50px;
+	display: inline-block;
+	transition: .3s;
+}
+.text-block__btn:hover {
+	opacity: .5;
+}
+
 @media (max-width: 1090px) {
 	.gallery {
 		flex-direction: column;
